@@ -6,6 +6,7 @@ module.exports = function (window) {
     var itagCore =  require('itags.core')(window),
         itagName = 'i-radiobuttons', // <-- define your own itag-name here
         DOCUMENT = window.document,
+        ITSA = window.ITSA,
         Itag;
 
     if (!window.ITAGS[itagName]) {
