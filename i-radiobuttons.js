@@ -18,6 +18,9 @@ module.exports = function (window) {
             init: function() {
             },
 
+            render: function() {
+            },
+
             sync: function() {
             },
 
