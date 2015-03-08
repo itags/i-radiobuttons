@@ -11,7 +11,7 @@ module.exports = function (window) {
 
     if (!window.ITAGS[itagName]) {
 
-        Itag = DOCUMENT.createItag(itagName, {
+        Itag = DOCUMENT.defineItag(itagName, {
             attrs: {
             },
 
